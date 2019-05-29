@@ -1,68 +1,140 @@
-# [Start Bootstrap - One Page Wonder](https://startbootstrap.com/template-overviews/one-page-wonder/)
+<!DOCTYPE html>
+<html lang="en">
 
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+<head>
 
-## Preview
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-[![One Page Wonder Preview](https://startbootstrap.com/assets/img/screenshots/themes/one-page-wonder.png)](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)
+  <title>Проект</title>
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)**
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-## Status
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-one-page-wonder/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-one-page-wonder.svg)](https://www.npmjs.com/package/startbootstrap-one-page-wonder)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-one-page-wonder.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-one-page-wonder)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder?type=dev)
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
-## Download and Installation
+</head>
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/one-page-wonder/)
-* Install via npm: `npm i startbootstrap-one-page-wonder`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder)
+<body>
 
-## Usage
+  <header class="masthead text-center text-white" style="background-image: url('фон.jpg')">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">"Мороз, Красный нос":</h1>
+        <h2 class="masthead-subheading mb-0">ДВА МИРА В ОДНОЙ ПОЭМЕ</h2>
+        <br>
+           <!-- Testimonials -->
+    <div class="container">
+      <h2 class="times new roman mb-5">Создатели проекта</h2>
+      <br>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="к.jpg" alt="">
+            <h5>Сальникова Екатерина🌸</h5>
+            <p class="font-weight-light mb-0">Анализ второй части поэмы</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="ю.jpg" alt="">
+            <br>
+            <h5>Хаертдинова Йолдуз🌸</h5>
+            <p class="font-weight-light mb-0">Работа с Gephi, частичный анализ первой части поэмы</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="me.jpg" alt="">
+            <h5>Молокова Лада🌸</h5>
+            <p class="font-weight-light mb-0">Создание сайта, частичный анализ первой части поэмы</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="ив.jpg" alt="">
+            <h5>Наш идейный вдохновитель🌸</h5>
+            <p class="font-weight-light mb-0"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </header>
 
-### Basic Usage
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="ч1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Часть первая</h2>
+            <h2 class="display-4">СМЕРТЬ КРЕСТЬЯНИНА</h2>
+              <div class="clearfix">
+            <a class="btn btn-primary float-left" href="part1.html"><h3 class="display-5">Анализировать</h3></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="ч2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Часть вторая</h2>
+            <h2 class="display-4">МОРОЗ, КРАСНЫЙ НОС</h2>
+             <div class="clearfix">
+            <a class="btn btn-primary float-left" href="part2.html"><h3 class="display-5">Анализировать</h3></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-### Advanced Usage
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/вывод.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">ВЫВОД</h2>
+            <a class="btn btn-primary float-left" href="вывод.html"><h3 class="display-5">Резюмировать</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-#### Gulp Tasks
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+</body>
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
+</html>
